@@ -1,0 +1,15 @@
+1. instalar dependências termux
+  - usar o f-droid para instalar o termux
+  - termux: apt install wget openssl unzip
+
+2. baixar o ngrok
+  - termux: wget https://flakie.co.uk/downloads/setup-ngrok.zip
+
+3. startar o ngrok
+  - termux: chmod +x ngrok
+  - termux: ./ngrok authtoken (token ngrok)
+  - termux: ./ngrok tcp 5555
+  
+4. conectar ao android
+  - pc: adb connect (url gerada do ngrok)
+  - pc: scrcpy --turn-screen-off --bit-rate 2M --max-size 800

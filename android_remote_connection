@@ -1,5 +1,6 @@
 1. instalar dependências termux
   - usar o f-droid para instalar o termux
+  - termux: apt update && apt upgrade
   - termux: apt install wget openssl unzip
 
 2. baixar o ngrok

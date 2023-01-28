@@ -1,4 +1,7 @@
-1. 
+1.
+  - add signing key in github.com/settings/keys
+
+2. 
   - git config --global gpg.format ssh
   - git config --global user.signingKey "public key info"
   - git config --global commit.gpgsign true

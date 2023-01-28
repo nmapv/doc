@@ -1,0 +1,5 @@
+1. 
+  - git config --global gpg.format ssh
+  - git config --global user.signingKey "public key info"
+  - git config --global commit.gpgsign true
+  - git config --global tag.gpgsign true
